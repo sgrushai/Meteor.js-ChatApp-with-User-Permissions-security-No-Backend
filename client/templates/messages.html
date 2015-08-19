@@ -1,0 +1,8 @@
+<template name="input">
+    <p>Message: <input type="text" id="message"></p>
+</template>
+<template name="messages">
+    {{#each messages}}
+        <strong>{{name}}:{{messageLocation}}</strong> {{message}}<br>
+    {{/each}}
+</template>

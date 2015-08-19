@@ -1,0 +1,29 @@
+<head>
+    <title>Chat app</title>
+</head>
+
+<body>
+
+{{#if currentUser}}
+    {{> dashboard}}
+{{else}}
+    {{> login}}
+    {{> register}}
+{{/if}}
+
+
+<h1>Chatapp</h1>
+<p>
+    Welcome to chat!
+</p>
+
+{{> input }}
+{{> messages }}
+</body>
+
+
+
+
+
+
+

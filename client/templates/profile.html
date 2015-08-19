@@ -1,0 +1,12 @@
+<template name="profile">
+    <form>
+        <h3>Edit Profile</h3>
+        <input type="text" name="profilefName" value="{{currentUserfName}}">
+        <input type="text" name="profilelName" value="{{currentUserlName}}">
+        {{> locationOptions}}
+
+        <input type="email" value="{{currentUserEmail}}" name="profileEmail">
+        <input type="submit" value="Submit Changes">
+    </form>
+
+</template>

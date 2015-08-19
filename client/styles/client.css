@@ -1,0 +1,22 @@
+html {
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+.login-buttons-dropdown-align-right {
+    float: right;
+}
+.lable {
+    width:100px;
+}
+.input {
+    width:200px;
+}
+.selected {
+    border: 1px solid gray;
+    background-color: gray;
+}
+form {
+    position: relative;
+    top: 30px;
+}

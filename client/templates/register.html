@@ -1,0 +1,37 @@
+<template name="register">
+    <form>
+        <p>
+        <h3>Registration Form</h3>
+
+        </p>
+        <table>
+            <tbody>
+            <tr>
+                <td class="lable">First Name: </td><td class="input"><input type="text" name="registerfName"></td>
+                </tr>
+        <tr>
+            <td class="lable">Last Name: </td><td class="input"><input type="text" name="registerlName"></td>
+            </tr>
+        <tr>
+            <td class="lable">Location: </td>
+
+            {{> locationOptions}}
+
+
+            </tr>
+        <tr>
+            <td class="lable">Email: </td><td class="input"><input type="email" name="registerEmail"></td>
+            </tr>
+            <tr>
+                <td class="lable">Username: </td><td class="input"><input type="username" name="registerUsername"></td>
+            </tr>
+            <tr>
+                <td class="lable">Password: </td><td class="input"><input type="password" name="registerPassword"></td>
+                </tr>
+            <tr>
+        <input type="submit" value="Register">
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</template>
